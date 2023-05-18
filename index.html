@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/aebeed57f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color:rgb(21, 25, 25);">
+    <div class="conatainer border rounded-2">
+        <h1>Money Calculator <i class="fa-solid fa-coins"></i></h1>
+        <br>
+        <div class="wallet border rounded-2">
+            <h3 class="wallet-h3">My Wallet: ₹0</h3>
+        </div>
+        <br>
+
+        <form class="inputs">
+            <div class="input-group deposit">
+                <label class="input-group-text">₹</label>
+                <input type="number" class="form-control input-1" />
+                <button class="btn btn-dark button-1">Deposit </button>
+            </div>
+            <br>
+            <div class="input-group withdraw">
+                <label class="input-group-text withdraw">₹</label>
+                <input type="number" class="form-control input-2" />
+                <button class="btn btn-dark  button-2">Remove</button>
+            </div>
+        </form>
+
+    </div>
+    <div class="conatainer2 border rounded-2">
+        <div class="heading border rounded-2">
+            <h1 style="text-align: center; color: aliceblue;">Bid Calculator 🪙</h1>
+        </div>
+        <br>
+        <div class="bid-conatiner">
+            <h2 style="text-align:center">Current Bid : ₹10</h2>
+            <button class="raiseBid btn btn-info" style="width
+            : 100%">Raise</button>
+            <br><br>
+            <h3 style="text-align:center">Amount : ₹10</h3>
+        </div>
+        <div class="bid-buttons">
+            <button class="match btn btn-primary" style="width
+            : 100%">Match</button>
+            <button class="raise btn btn-success" style="width
+            : 100%">Raise</button>
+            <button class="pack btn btn-danger" style="width
+            : 100%">Pack</button>
+            <button class="won btn btn-warning" style="width
+            : 100%">Won</button>
+        </div>
+    </div>
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>

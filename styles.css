@@ -1,0 +1,66 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80");
+}
+
+.conatainer {
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(240, 248, 255);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+}
+
+.conatainer2 {
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(240, 248, 255);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+}
+
+.wallet-h3 {
+    color: rgb(240, 248, 255);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wallet {
+    padding: 10px;
+    background-color: rgb(38, 36, 36);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.input-group.deposit,
+.input-group.withdraw {
+    width: 250px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.108);
+}
+
+.heading {
+    padding: 10px;
+    background-color: rgb(38, 36, 36);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.bid-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.raiseBid {
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.108);
+}
